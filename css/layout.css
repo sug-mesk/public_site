@@ -1,5 +1,61 @@
+@font-face {
+    font-family: Haettenschweiler;
+    src:url(Haettenschweiler.ttf) format("truetype");
+    src: url(Haettenschweiler.woff) format("woff");
+}
+body {
+    font-size: 14px;
+}
 main{
   width: 950px;
   margin: 0 auto;
   color: white;
+}
+div.nav-container {
+    margin: 0 auto;
+    width: 950px;
+}
+div.nav-container ul.main-menu{
+-moz-border-radius: 6px;
+    border-radius: 6px;
+    border: 2px solid gray;
+    display: inline-block;
+    padding: 10px 0;
+    margin-right: 15px;
+    text-align: center;
+    width: 99%;
+    font-family: "Haettenschweiler", verdana, tahoma, sans-serif;
+    background-color: #333333;
+}
+
+div.nav-container ul.main-menu li a{
+    color: white;
+    font-size: 22px;
+    margin-right: 1em;
+    text-decoration: none;
+    border-bottom: 3px solid gray;
+    letter-spacing: 0.1px;
+    font-weight: normal;
+}
+
+div.nav-container ul.main-menu li a:hover{
+        border-bottom-color: white;
+    }
+
+li a.active{
+    text-decoration: underline !important;
+}
+section.links a{
+    color: white;
+    font-weight: bold;
+}
+
+
+h1, h2, h3, h4, h5 {
+    font-family: "Haettenschweiler", verdana, tahoma, sans-serif;
+}
+
+h1{
+    font-size: 35px;
+    font-weight: normal;
 }
