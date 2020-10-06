@@ -5,6 +5,7 @@
 }
 body {
     font-size: 14px;
+    line-height: 1.6em;
 }
 main{
   width: 950px;
@@ -53,9 +54,26 @@ section.links a{
 
 h1, h2, h3, h4, h5 {
     font-family: "Haettenschweiler", verdana, tahoma, sans-serif;
+    letter-spacing: 0.04em;
 }
 
 h1{
     font-size: 35px;
     font-weight: normal;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+h5{
+    font-size: 15px;
 }
