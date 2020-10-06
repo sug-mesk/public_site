@@ -16,6 +16,10 @@ div.nav-container {
     margin: 0 auto;
     width: 950px;
 }
+div.image-container img{
+    max-width: 120px;
+    max-height: 120px;
+}
 div.nav-container ul.main-menu{
 -moz-border-radius: 6px;
     border-radius: 6px;
