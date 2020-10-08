@@ -56,15 +56,18 @@ section.links a{
 h1, h2, h3, h4, h5 {
     font-family: "Haettenschweiler", verdana, tahoma, sans-serif;
     letter-spacing: 0.04em;
+    margin-bottom: 0.4em;
 }
 
 h1{
-    font-size: 35px;
+    font-size: 40px;
     font-weight: normal;
 }
 
 h2{
-    font-size: 30px;
+    font-size: 33px;
+    font-weight: normal;
+}
 }
 
 h3{
